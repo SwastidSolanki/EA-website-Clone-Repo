@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap");
+
+@font-face {
+  font-family: myFont;
+  src: url(EA\ Logo.ttf);
+}
+@font-face {
+  font-family: font1;
+  src: url(Gilroy-ExtraBoldItalic.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: poppins;
+  box-sizing: border-box;
+}
+
+.main-width {
+  width: 1400px;
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.hero {
+  height: 70%;
+  width: 100%;
+  min-height: 100vh;
+  background: radial-gradient(
+    circle at 24.1% 68.8%,
+    rgb(50, 50, 50) 0%,
+    rgb(0, 0, 0) 99.4%
+  );
+}
+
+.hero header .logo h2 a {
+  display: block;
+  padding-left: 20px;
+  font-size: 72px;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+}
+
+.hero header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 0 30px;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: whitesmoke;
+  margin-left: 60px;
+  font-size: 18px;
+  font-weight: 600;
+  border-bottom: 2px solid transparent;
+  transition: all ease 0.4s;
+}
+
+nav ul li:not(:last-child) a:hover,
+nav ul li:not(:last-child) a:focus {
+  border-bottom: 2px solid white;
+}
+
+nav ul li.active a {
+  border-bottom: 2px solid whitesmoke;
+}
+nav ul li.btn a {
+  background: transparent;
+  color: whitesmoke;
+  border: 1px solid #f5dca8;
+  padding: 9px 20px;
+  border-radius: 30px;
+  line-height: 1.4;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 150px;
+}
+nav ul li.btn:hover a {
+  border: 2px solid whitesmoke;
+  color: black;
+  background: whitesmoke;
+  transition: all ease 0.4s;
+}
+
+.content {
+  padding-top: 150px;
+}
+.content .main-text {
+  position: relative;
+  z-index: 2;
+  margin-bottom: -10px;
+}
+.content .main-text h6 {
+  font-size: 20px;
+  font-weight: 400;
+  color: whitesmoke;
+  margin-top: -110px;
+  margin-bottom: 20px;
+}
+.content .main-text h1 {
+  font-family: font1;
+  font-size: 100px;
+  line-height: 1;
+  color: whitesmoke;
+  margin: 0px 0px 45px;
+}
+.content .main-text h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: whitesmoke;
+}
+
+.content .main-text p {
+  max-width: 100%;
+  width: 480px;
+  color: whitesmoke;
+  line-height: 1.8;
+  font-size: 17px;
+  margin-bottom: 50px;
+}
+
+.content .main-text a {
+  display: inline-block;
+  text-decoration: none;
+  color: whitesmoke;
+  background: black;
+  border: 2px solid whitesmoke;
+  padding: 9px 25px;
+  line-height: 1.4;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.content .main-text a:hover {
+  transform: scale(1.2);
+  border: 2px solid #f5dca8;
+  background: transparent;
+  color: whitesmoke;
+  transition: all ease 0.4s;
+}
+.content .main-text a.cta {
+  border: 1px solid #f5dca8;
+  color: whitesmoke;
+  background: transparent;
+  margin-left: 20px;
+}
+
+.content .main-text a.pn {
+  border: 1px solid #f5dca8;
+  color: whitesmoke;
+  background: transparent;
+  margin-left: 20px;
+}
+.content .main-text a.cta i {
+  margin-right: 12px;
+}
+
+.content .main-text a.pn i {
+  margin-right: 12px;
+}
+.content .main-text a.cta:hover {
+  color: black;
+  background: white;
+  border: 1px solid white;
+  transition: all ease 0.4s;
+}
+
+.content .main-text a.pn:hover {
+  color: black;
+  background: white;
+  border: 1px solid white;
+  transition: all ease 0.4s;
+}
+
+.content .social {
+  position: relative;
+  z-index: 2;
+  margin-top: 60px;
+  padding-bottom: 80px;
+}
+
+.content .social a {
+  display: inline-block;
+  color: #f5dcac;
+  margin-right: 25px;
+  font-size: 24px;
+}
+
+.content .social a :hover {
+  transform: scale(1.2);
+  transition: all ease 0.4s;
+  color: whitesmoke;
+}
+
+.image {
+  position: absolute;
+  width: 80%;
+  height: 85%;
+  bottom: 0;
+  right: 0;
+  text-align: right;
+}
+
+.image img {
+  height: 100%;
+  padding-right: 70px;
+  padding-bottom: 40px;
+}
+.logo a {
+  font-family: myFont;
+}
+
+h1 .imglogo {
+  height: 80px;
+}
+h1 .license {
+  height: 80px;
+  filter: invert(100%);
+  padding-top: -2px;
+}
